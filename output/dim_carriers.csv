@@ -1,0 +1,31 @@
+vendor_number,vendor_name,country,city,payment_terms
+1000001,Vendor A,US,New York,30 Days
+1000002,Vendor B,DE,Stuttgart,60 Days
+1000003,Vendor C,UK,London,45 Days
+1000004,Vendor D,FR,Paris,30 Days
+1000005,Vendor E,IN,New Delhi,90 Days
+1000006,Vendor F,JP,Tokyo,30 Days
+1000007,Vendor G,US,Los Angeles,60 Days
+1000008,Vendor H,CN,Beijing,45 Days
+1000009,Vendor I,IT,Rome,30 Days
+1000010,Vendor J,AU,Sydney,60 Days
+1000011,Vendor K,CA,Toronto,45 Days
+1000012,Vendor L,ES,Madrid,60 Days
+1000013,Vendor M,NL,Amsterdam,30 Days
+1000014,Vendor N,SE,Stockholm,90 Days
+1000015,Vendor O,BE,Brussels,45 Days
+1000016,Vendor P,AU,Melbourne,60 Days
+1000017,Vendor Q,IN,Mumbai,30 Days
+1000018,Vendor R,ZA,Johannesburg,60 Days
+1000019,Vendor S,FR,Marseille,90 Days
+1000020,Vendor T,IT,Florence,30 Days
+1000021,Vendor U,BR,São Paulo,60 Days
+1000022,Vendor V,SG,Singapore,45 Days
+1000023,Vendor W,AU,Perth,90 Days
+1000024,Vendor X,US,San Francisco,30 Days
+1000025,Vendor Y,IT,Rome,45 Days
+1000026,Vendor Z,IN,Chennai,60 Days
+1000027,Vendor AA,US,Dallas,30 Days
+1000028,Vendor AB,GB,Manchester,60 Days
+1000029,Vendor AC,JP,Osaka,45 Days
+1000030,Vendor AD,FR,Lyon,30 Days

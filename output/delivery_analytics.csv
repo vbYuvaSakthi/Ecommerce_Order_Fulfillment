@@ -1,0 +1,21 @@
+Sales Document,Order Date,Customer ID,Order Type,Sales Organization,Distribution Channel,Division,Order Status,Delivery Number,Delivery Date,Shipping Point,Shipping Type,Delivery Status,Shipping Status,Route,Delivery Priority,Processing_Days,Delivery_Performance
+1000001,2025-02-01,CUST001,OR,1000,10,1,Open,1001001,2025-02-10,SP001,Standard,Open,Not Shipped,1,High,9,Delayed
+1000002,2025-02-02,CUST002,OR,1000,20,1,Delivered,1001002,2025-02-11,SP002,Express,Delivered,Shipped,2,Medium,9,Delayed
+1000003,2025-02-05,CUST003,OR,1000,10,1,Open,1001003,2025-02-12,SP001,Standard,Open,Not Shipped,3,Low,7,On Time
+1000004,2025-02-06,CUST004,OR,1000,10,1,Closed,1001004,2025-02-13,SP003,Express,Delivered,Shipped,4,High,7,On Time
+1000005,2025-02-07,CUST005,OR,1000,20,1,Open,1001005,2025-02-14,SP001,Standard,Open,Not Shipped,5,Medium,7,On Time
+1000006,2025-02-08,CUST006,OR,2000,10,2,Delivered,1001006,2025-02-15,SP002,Express,Delivered,Shipped,6,High,7,On Time
+1000007,2025-02-09,CUST007,OR,1000,30,3,Open,1001007,2025-02-16,SP003,Standard,Open,Not Shipped,7,Low,7,On Time
+1000008,2025-02-10,CUST008,OR,1000,10,1,Closed,1001008,2025-02-17,SP001,Express,Delivered,Shipped,8,Medium,7,On Time
+1000009,2025-02-11,CUST009,OR,1000,20,2,Open,1001009,2025-02-18,SP002,Standard,Open,Not Shipped,9,High,7,On Time
+1000010,2025-02-12,CUST010,OR,1000,10,1,Open,1001010,2025-02-19,SP003,Express,Delivered,Shipped,10,Low,7,On Time
+1000011,2025-02-13,CUST011,OR,3000,10,2,Delivered,1001011,2025-02-20,SP001,Standard,Open,Not Shipped,11,Medium,7,On Time
+1000012,2025-02-14,CUST012,OR,2000,20,1,Closed,1001012,2025-02-21,SP002,Express,Delivered,Shipped,12,High,7,On Time
+1000013,2025-02-15,CUST013,OR,1000,10,1,Open,1001013,2025-02-22,SP003,Standard,Open,Not Shipped,13,Low,7,On Time
+1000014,2025-02-16,CUST014,OR,1000,10,1,Delivered,1001014,2025-02-23,SP001,Express,Delivered,Shipped,14,Medium,7,On Time
+1000015,2025-02-17,CUST015,OR,1000,20,2,Open,1001015,2025-02-24,SP002,Standard,Open,Not Shipped,15,High,7,On Time
+1000016,2025-02-18,CUST016,OR,1000,30,3,Closed,1001016,2025-02-25,SP003,Express,Delivered,Shipped,16,Low,7,On Time
+1000017,2025-02-19,CUST017,OR,1000,10,1,Delivered,1001017,2025-02-26,SP001,Standard,Open,Not Shipped,17,Medium,7,On Time
+1000018,2025-02-20,CUST018,OR,1000,20,1,Open,1001018,2025-02-27,SP002,Express,Delivered,Shipped,18,High,7,On Time
+1000019,2025-02-21,CUST019,OR,1000,10,2,Closed,1001019,2025-02-28,SP003,Standard,Open,Not Shipped,19,Low,7,On Time
+1000020,2025-02-22,CUST020,OR,1000,20,1,Open,1001020,2025-03-01,SP001,Express,Delivered,Shipped,20,Medium,7,On Time
