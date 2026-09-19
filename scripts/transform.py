@@ -85,10 +85,7 @@ delivery_analytics[
     else "Delayed"
 )
 
-## =====================================================
-# RENAME COLUMNS - DIM_CUSTOMERS
-# =====================================================
-
+# RENAME COLUMNS
 dim_customers = kna1.rename(columns={
     "Customer ID": "customer_id",
     "Customer Name": "customer_name",
@@ -119,10 +116,6 @@ dim_customers = dim_customers[
     ]
 ]
 
-# =====================================================
-# RENAME COLUMNS - DIM_CARRIERS
-# =====================================================
-
 dim_carriers = lfa1.rename(columns={
     "Vendor Number": "vendor_number",
     "Vendor Name": "vendor_name",
@@ -140,10 +133,6 @@ dim_carriers = dim_carriers[
         "payment_terms"
     ]
 ]
-
-# =====================================================
-# FACT_ORDERS (VBAK + VBAP)
-# =====================================================
 
 fact_orders = pd.merge(
     vbak,
@@ -182,10 +171,6 @@ fact_orders = fact_orders[
     ]
 ]
 
-# =====================================================
-# FACT_DELIVERIES
-# =====================================================
-
 fact_deliveries = likp.rename(columns={
     "Delivery Number": "delivery_number",
     "Sales Document": "sales_document",
@@ -206,10 +191,6 @@ fact_deliveries = fact_deliveries[
     ]
 ]
 
-# =====================================================
-# FACT_SHIPMENTS
-# =====================================================
-
 fact_shipments = vttk.rename(columns={
     "Shipment Number": "shipment_number",
     "Delivery Number": "delivery_number",
@@ -229,10 +210,6 @@ fact_shipments = fact_shipments[
         "shipment_status"
     ]
 ]
-
-# =====================================================
-# CHECK OUTPUT COLUMN NAMES
-# =====================================================
 
 print("\nDIM_CUSTOMERS")
 print(dim_customers.columns.tolist())
